@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warangal City Portal</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+            <span class="logo-icon">W</span>
+            <div class="logo-text">
+                <h1>Warangal City Portal</h1>
+                <p>Official information & citizen services</p>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#tourism">Tourism</a>
+            <a href="#services">Services</a>
+            <a href="#news">News & Events</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Warangal</h2>
+            <p>
+                A historic city of Telangana known for its forts, temples, and lakes —
+                blending rich heritage with modern urban life.
+            </p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn primary">Citizen Services</a>
+                <a href="#tourism" class="btn secondary">Plan Your Visit</a>
+            </div>
+        </div>
+
+        <div class="hero-side">
+            <img src="img/warangal-skyline.jpg" alt="Warangal City View" class="hero-image" />
+
+            <div class="info-card">
+                <h3>Quick Info</h3>
+                <ul>
+                    <li>State: Telangana, India</li>
+                    <li>Famous for: Warangal Fort, Thousand Pillar Temple</li>
+                    <li>Local Time: <span id="local-time">Loading...</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        
+        <section id="about" class="section">
+            <h2>About Warangal</h2>
+            <p>
+                Warangal is one of the major cities in Telangana with a rich history
+                dating back to the Kakatiya dynasty. It is an important center for
+                education, culture, and commerce in the region.
+            </p>
+            <div class="grid two-col">
+                <div class="card">
+                    <h3>History</h3>
+                    <p>
+                        Warangal served as the capital of the Kakatiya dynasty in the
+                        12th and 13th centuries. The city is known for its grand fort,
+                        intricate stone gateways, and ancient temples.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Modern City</h3>
+                    <p>
+                        Today, Warangal is a fast-growing urban center with universities,
+                        IT parks, and transport links connecting it to Hyderabad and
+                        other major cities.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="tourism" class="section alt">
+            <h2>Tourism & Places to Visit</h2>
+            <p>
+                Explore famous landmarks, temples, lakes, and parks in and around Warangal.
+            </p>
+            <div class="grid three-col">
+                <article class="card place-card">
+                    <img src="img/warangal-fort.jpg" alt="Warangal Fort" class="place-img" />
+                    <h3>Warangal Fort</h3>
+                    <p>
+                        A historic fort with massive stone gateways (Kakatiya Toranas)
+                        and ruins that reflect the city's glorious past.
+                    </p>
+                    <span class="tag">Heritage</span>
+                </article>
+                <article class="card place-card">
+                    <img src="img/thousand-pillar-temple.jpg" alt="Thousand Pillar Temple" class="place-img" />
+                    <h3>Thousand Pillar Temple</h3>
+                    <p>
+                        An iconic temple dedicated to Shiva, Vishnu, and Surya, famous
+                        for its detailed stone carvings and architecture.
+                    </p>
+                    <span class="tag">Temple</span>
+                </article>
+                <article class="card place-card">
+                    <img src="img/bhadrakali-lake.jpg" alt="Bhadrakali Lake" class="place-img" />
+                    <h3>Bhadrakali Lake & Temple</h3>
+                    <p>
+                        A scenic lake with a hilltop temple, popular for evening views,
+                        boating, and festivals.
+                    </p>
+                    <span class="tag">Nature</span>
+                </article>
+            </div>
+        </section>
+
+        
+        <section id="services" class="section">
+            <h2>Citizen Services</h2>
+            <p>
+                Access key services and information for residents, businesses, and visitors.
+            </p>
+            <div class="grid three-col">
+                <div class="card service-card">
+                    <h3>Municipal Services</h3>
+                    <ul>
+                        <li>Property tax information</li>
+                        <li>Water & sanitation</li>
+                        <li>Online grievance portal</li>
+                    </ul>
+                    <button class="btn small">Know More</button>
+                </div>
+                <div class="card service-card">
+                    <h3>Transport & Traffic</h3>
+                    <ul>
+                        <li>Bus routes & timings</li>
+                        <li>Railway information</li>
+                        <li>Traffic updates</li>
+                    </ul>
+                    <button class="btn small">View Details</button>
+                </div>
+                <div class="card service-card">
+                    <h3>Emergency Contacts</h3>
+                    <ul class="contacts-list">
+                        <li><strong>Police:</strong> 100</li>
+                        <li><strong>Ambulance:</strong> 108</li>
+                        <li><strong>Fire:</strong> 101</li>
+                    </ul>
+                    <button class="btn small">Download List</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- News & Events Section -->
+        <section id="news" class="section alt">
+            <h2>News & Upcoming Events</h2>
+            <p>Stay updated with announcements, cultural events, and public notices.</p>
+            <div id="news-container" class="grid three-col">
+                <!-- Filled by script.js -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact & Feedback</h2>
+            <div class="grid two-col">
+                <div>
+                    <p>
+                        For any queries, suggestions, or complaints related to Warangal
+                        city services, reach out using the form or the details below.
+                    </p>
+                    <ul class="contacts-list">
+                        <li><strong>Municipal Office:</strong> Example Road, Warangal</li>
+                        <li><strong>Phone:</strong> +91-00000-00000</li>
+                        <li><strong>Email:</strong> info@warangalportal.gov</li>
+                    </ul>
+                </div>
+                <form class="contact-form" onsubmit="return handleFormSubmit(event)">
+                    <label>
+                        Name
+                        <input type="text" name="name" required />
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" required />
+                    </label>
+                    <label>
+                        Subject
+                        <input type="text" name="subject" required />
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" rows="4" required></textarea>
+                    </label>
+                    <button type="submit" class="btn primary full-width">Submit</button>
+                    <p class="form-note">
+                        * This is a demo portal. Form submission is simulated on this page.
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Warangal City Portal. All rights reserved.</p>
+        <p class="footer-links">
+            <a href="#home">Back to top</a>
+            <span>•</span>
+            <a href="#services">Citizen Services</a>
+            <span>•</span>
+            <a href="#tourism">Tourism</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
