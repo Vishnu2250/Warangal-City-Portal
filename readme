@@ -1,1 +1,56 @@
+# Warangal City Portal 🌆
+
+Warangal City Portal is a responsive and informative web application developed using HTML, CSS, and JavaScript. The website is designed to provide citizens and tourists with important information about Warangal city, including tourism places, municipal services, emergency contacts, news updates, and contact details.
+
+The portal showcases the rich cultural heritage of Warangal by highlighting famous landmarks such as Warangal Fort, Thousand Pillar Temple, and Bhadrakali Lake. It also provides useful citizen services like water and sanitation details, transport information, traffic updates, and emergency contact numbers.
+
+The website contains:
+
+* 🏛️ About Warangal section
+* 📍 Tourism and famous places
+* 🚌 Citizen and transport services
+* 📰 News & Events section
+* 📞 Contact and feedback form
+* ⏰ Live local time display
+* 📱 Responsive modern user interface
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+
+## Features
+
+* Responsive design
+* Navigation menu
+* Interactive contact form
+* Dynamic news section using JavaScript
+* Clean and modern UI
+* Informative city portal layout
+
+## Project Structure
+
+```bash id="v5k3ta"
+Warangal-City-Portal/
+│
+├── index.html
+├── styles.css
+├── script.js
+└── img/
+    ├── warangal-skyline.jpg
+    ├── warangal-fort.jpg
+    ├── thousand-pillar-temple.jpg
+    └── bhadrakali-lake.jpg
+```
+
+## How to Run
+
+1. Download or clone the repository
+2. Open the project folder
+3. Run `index.html` in any web browser
+
+## Purpose of the Project
+
+The main objective of this project is to create a digital city information portal that helps citizens and visitors access important services, tourism details, and public information easily through a simple and attractive website interface.
 
